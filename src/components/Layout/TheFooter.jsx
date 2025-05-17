@@ -8,7 +8,7 @@ export default function Footer() {
 			<div className="footer_top">
 				<div className="container">
 					<div>
-						<h3>COMPANY INFO</h3>
+						<h3 className="text-xl">COMPANY INFO</h3>
 						<p className="mt-5 opacity-70">
 							Reach out to us anytime and lets create a better future for all
 							technology users together, forever. We are open to all types of
@@ -32,7 +32,7 @@ export default function Footer() {
 						</div>
 					</div>
 					<div>
-						<h3>CONTACT INFO</h3>
+						<h3 className="text-xl">CONTACT INFO</h3>
 						<div className="flex flex-col gap-4 mt-5 group">
 							<div className="flex gap-2">
 								<AtSign />
@@ -63,7 +63,7 @@ export default function Footer() {
 						</div>
 					</div>
 					<div>
-						<h3>OUR SERVICES</h3>
+						<h3 className="text-xl">OUR SERVICES</h3>
 						<div className="flex flex-col gap-3 mt-5">
 							<Link to="/" className="opacity-70 hover:opacity-100">
 								Information Systems Strategy
@@ -86,7 +86,7 @@ export default function Footer() {
 						</div>
 					</div>
 					<div>
-						<h3>OUR LOCATIONS</h3>
+						<h3 className="text-xl">OUR LOCATIONS</h3>
 						<img src={Img} alt="Map" />
 					</div>
 				</div>
