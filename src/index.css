@@ -232,7 +232,7 @@
 		background: url('./assets/img/pic1.png') no-repeat center bottom/55%;
 	}
 
-	@media only screen and (max-width: 520px) {
+	@media only screen and (max-width: 840px) {
 		.section_testimonials {
 			background: none;
 		}
